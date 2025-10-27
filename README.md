@@ -38,3 +38,5 @@ Output of the code can be either :
 -	copy of images
 -	print of all transients as a multi stack tiff file
 
+4/ test file
+Unzip "Data test and results.7z" file containing an image and its corresponding results to be used with the code
