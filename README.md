@@ -46,6 +46,8 @@ Unzip "Data test and results.7z" file containing an image and its corresponding 
 
 B / PYTHON
 
+Files : model_transformation_control_cuff.py and nalyse_solutions.ipynb 
+
 The code to generate the solutions of potential transformations from control to cuff dorsal horn network is model_transformation_control_cuff.py
 The code to analyse the solutions is Analyse_solutions.ipynb 
 
