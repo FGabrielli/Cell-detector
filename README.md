@@ -1,4 +1,4 @@
-README file for code 
+README file for code invloled in the paper "Sensory plasticity of dorsal horn silent neurons: a critical mechanism for neuropathic pain", by Negm et al.
 
 A/ MATLAB 
 
