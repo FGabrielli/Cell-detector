@@ -5,9 +5,7 @@ The code is a tool to visualize 2-photon calcium images, and manually select cel
 1 / System requirements
 
 -	Pc computer with windows 10 or windows 11. Code not tested on linux nor iOS. 
--	A licenced Matlab. Code was developed on R2019a and successfully teste on R2024b, with the following toolboxes : 
-o	Image Processing Toolbox
-o	Signal Processing Toolbox
+-	A licenced Matlab. Code was developed on R2019a and successfully tested on R2024b, with the following toolboxes : Image Processing Toolbox, Signal Processing Toolbox
 -	Bioformats toolbox (https://docs.openmicroscopy.org/bio-formats/5.8.2/users/matlab/index.html)
 
 2 / Installation guide
@@ -21,17 +19,17 @@ Alternatively, one can type “traitement_imag_calc_test_affichage_162” in the
 -	Then a second windows will ask the user whether images need extra processing to compensate drift, rotation and/or shear, and ask for size of the median and gaussian filters. 
 -	The selected processes are then computed, with an execution time between 10s and 120s depending on the computed speed, and the main widow opens.
 -	Within the main window, the user can
-o	Add, delete, move cells
-o	Change the Z plane and Time plane
-o	Change images min and max
-o	Change the colormap, and the image processing for time image and SD image
-o	Visualize the time course of the current pixel, with real time calculation of BaseLine and activation criterion
-o	Change time period of BaseLine and Stimulation
-o	Change activation level (number od standard deviation over baseline, and offset)
-o	Add anatomical zones
-o	Export and import data
-o	Export transients (pop up for additional parameters)
-o	Export images (pop up for additional parameters)
+  - Add, delete, move cells
+  - Change the Z plane and Time plane
+  - Change images min and max
+  - Change the colormap, and the image processing for time image and SD image
+  - Visualize the time course of the current pixel, with real time calculation of BaseLine and activation criterion
+  - Change time period of BaseLine and Stimulation
+  - Change activation level (number od standard deviation over baseline, and offset)
+  - Add anatomical zones
+  - Export and import data
+  - Export transients (pop up for additional parameters)
+  - Export images (pop up for additional parameters)
 
 Output of the code can be either : 
 -	an excel fil listing all cells, sorted by stack, with raw fluorescence, dF/F, associated zones, and metadata
